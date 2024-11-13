@@ -1,3 +1,3 @@
 # Portfolio
 
-A portfolio build in React and NodeJs with Express Js and MongoDB for Backend
+A portifolio backend Node.js App with Express Js and MongoDB for Backend
