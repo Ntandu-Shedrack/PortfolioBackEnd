@@ -46,7 +46,7 @@ mongoose
   )
   .then(() => {
     // console.log("Connected to database");
-    app.listen(5000, () => {
+    app.listen(3000, () => {
       // console.log("Hello there, server is running");
     });
   })
