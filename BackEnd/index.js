@@ -13,6 +13,7 @@ const projectRoute = require("./routes/project.route.js");
 const publicationRoute = require("./routes/publication.route.js");
 const referenceRoute = require("./routes/reference.route.js");
 const skillRoute = require("./routes/skill.route.js");
+const serviceRoute = require("./routes/service.route.js");
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -35,9 +36,10 @@ app.use("/api/projects", projectRoute);
 app.use("/api/publications", publicationRoute);
 app.use("/api/references", referenceRoute);
 app.use("/api/skills", skillRoute);
+app.use("/api/services", serviceRoute);
 
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send("HELLO! Portifolio Server is Running");
 });
 
 mongoose
